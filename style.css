@@ -1,0 +1,101 @@
+* {
+  font-size: large;
+  background-color: aliceblue;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* PAGE HTML */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.name,
+.mail,
+.msg {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5%;
+  gap: 0.5em;
+  width: 150%;
+}
+
+.name input,
+.mail input {
+  width: 70%;
+}
+
+.msg input {
+  height: 15vh;
+}
+
+.msg .long-txt {
+  resize: none;
+}
+
+input {
+  border: lightblue solid;
+  margin-left: 1em;
+}
+
+span {
+  text-decoration: underline;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  border: none;
+  background-color: lightblue;
+  border-radius: 5%;
+}
+
+/* PAGE PHP */
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.tab table {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab table tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.tab table tr td {
+  height: 2em;
+  border: solid lightblue 3px;
+  width: 10vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Page index */
+
+.container-body {
+  display: flex;
+  flex-direction: row;
+}
