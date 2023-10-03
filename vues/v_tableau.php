@@ -17,11 +17,11 @@
             </tr>
             <?php
 /* Pour chaque ligne qu'on a reçut, on affiche les données correpondantes voulu, ici le nom, le prenom, le mail et le message. */
-            foreach ($data as $row) {
+            foreach ($donnee as $ligne) {
                 echo '<tr>';
-                echo '<td>' . $row['Nom_prenom'] . '</td>';
-                echo '<td>' . $row['Mail'] . '</td>';
-                echo '<td>' . $row['Msg'] . '</td>';
+                echo '<td>' . $ligne['Nom_prenom'] . '</td>';
+                echo '<td>' . $ligne['Mail'] . '</td>';
+                echo '<td>' . $ligne['Msg'] . '</td>';
                 echo '</tr>';
             }
             ?>
