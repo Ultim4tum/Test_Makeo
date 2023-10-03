@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $msg = $_POST["message"];
 
     $model = new pdoMakeo();
-    $model->CreerMsg($nom, $mail, $msg);
+    $model->creerMsg($nom, $mail, $msg);
 }
 
 $dataModel = new pdoMakeo();
