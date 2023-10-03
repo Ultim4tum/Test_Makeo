@@ -10,6 +10,7 @@
 <body>
     <div class="container_body">
         <?php
+        /* Ici on inclue le controlleur qui va nous permettre d'affiche les différentes vues*/
         include 'controleurs/controller.php';
         ?>
     </div>
