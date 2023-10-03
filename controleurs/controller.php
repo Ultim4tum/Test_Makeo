@@ -10,8 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $model->creerMsg($nom, $mail, $msg);
 }
 
-$dataModel = new pdoMakeo();
-$data = $dataModel->getDonneTab();
+$donnePdo = new pdoMakeo();
+$donnee = $donnePdo->getDonneTab();
 
 include 'vues/vue.php';
 include 'vues/v_tableau.php';
