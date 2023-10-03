@@ -16,6 +16,7 @@
                 <td>Message</td>
             </tr>
             <?php
+/* Pour chaque ligne qu'on a reçut, on affiche les données correpondantes voulu, ici le nom, le prenom, le mail et le message. */
             foreach ($data as $row) {
                 echo '<tr>';
                 echo '<td>' . $row['Nom_prenom'] . '</td>';
